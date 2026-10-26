@@ -65,7 +65,7 @@ async function main() {
     const response = await agent.invoke({
         messages: {
             role: 'human',
-            content: 'Purchased vegetables in shop total rupees 450'
+            content: 'Supriya bought skin care cream at rupees 55'
         }
     }, { configurable: { thread_id: 'con_v1' } });
 
